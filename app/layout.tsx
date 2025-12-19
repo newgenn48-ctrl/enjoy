@@ -1,0 +1,115 @@
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import '@/styles/globals.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+
+const inter = Inter({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+})
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://enjoytaxi.nl'),
+  title: {
+    default: 'Taxi Den Haag & Leiden | 24/7 Premium Tesla Service | Enjoy Taxi',
+    template: '%s',
+  },
+  description:
+    'Taxi Den Haag en Leiden - Premium taxi service met Tesla vloot. ✓ 24/7 beschikbaar ✓ Vaste prijzen ✓ Schiphol transfers ✓ Zakelijk vervoer. Bel nu!',
+  keywords: [
+    'taxi den haag',
+    'taxi leiden',
+    'taxi schiphol',
+    'schiphol taxi',
+    'taxi delft',
+    'luchthaven taxi',
+    'tesla taxi',
+    'premium taxi',
+    'taxi service den haag',
+    'taxi service leiden',
+    'zakelijk vervoer',
+    'vip taxi',
+    'taxi bestellen',
+    '24 uur taxi',
+  ],
+  authors: [{ name: 'Enjoy Taxi' }],
+  creator: 'Enjoy Taxi',
+  publisher: 'Enjoy Taxi',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'nl_NL',
+    url: 'https://enjoytaxi.nl',
+    siteName: 'Enjoy Taxi',
+    title: 'Taxi Den Haag & Leiden | 24/7 Premium Tesla Service',
+    description:
+      'Premium taxi service in Den Haag en Leiden. Tesla vloot, vaste prijzen, 24/7 beschikbaar. Schiphol transfers vanaf €35.',
+    images: [
+      {
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Enjoy Taxi - Premium Taxi Den Haag en Leiden',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Taxi Den Haag & Leiden | Enjoy Taxi',
+    description:
+      'Premium taxi service met Tesla vloot. 24/7 beschikbaar, vaste prijzen, Schiphol transfers.',
+    images: ['/images/og-image.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://enjoytaxi.nl',
+  },
+  verification: {
+    google: 'google-site-verification-code',
+  },
+  other: {
+    'geo.region': 'NL-ZH',
+    'geo.placename': 'Den Haag',
+    'geo.position': '52.0705;4.3007',
+    'ICBM': '52.0705, 4.3007',
+  },
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="nl" className={inter.variable}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0a0a0a" />
+      </head>
+      <body className="font-sans">
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <Footer />
+      </body>
+    </html>
+  )
+}
