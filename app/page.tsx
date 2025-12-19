@@ -777,7 +777,7 @@ export default function HomePage() {
           {/* View all locations link */}
           <div className="text-center mt-12">
             <Link
-              href="/locations/den-haag"
+              href="/locaties"
               className="inline-flex items-center gap-2 px-8 py-4 bg-white text-primary-900 font-semibold rounded-xl hover:bg-primary-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               Bekijk alle {locations.length} locaties
