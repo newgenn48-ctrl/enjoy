@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 export default function LocatiesPage() {
   // Group locations by region
   const denHaagWijken = locations.filter(loc => loc.region === 'Den Haag')
-  const denHaagOmgeving = locations.filter(loc => loc.region === 'Den Haag e.o.')
+  const denHaagOmgeving = locations.filter(loc => loc.region === 'Den Haag en Omgeving')
   const leidenRegion = locations.filter(loc => loc.region === 'Leiden e.o.')
   const airports = locations.filter(loc => loc.region === 'Luchthaven')
 

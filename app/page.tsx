@@ -177,11 +177,6 @@ export default function HomePage() {
                 availableLanguage: ['Dutch', 'English'],
               },
             ],
-            sameAs: [
-              'https://facebook.com/enjoytaxi',
-              'https://instagram.com/enjoytaxi',
-              'https://linkedin.com/company/enjoytaxi',
-            ],
           }),
         }}
       />
