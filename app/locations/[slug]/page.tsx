@@ -169,8 +169,8 @@ export default async function LocationPage({ params }: LocationPageProps) {
     (l) => l.region === location.region && l.slug !== location.slug
   ).slice(0, 4)
 
-  const schipholRoute = location.popularRoutes.find((r) => r.destination.includes('Schiphol'))
-  const schipholPrice = schipholRoute?.priceFrom || 55
+  // Fixed airport prices
+  const schipholPrice = 79
   const locationFaqs = getLocationFaqs(location.name, location.nearbyAirport || 'Schiphol', schipholPrice)
 
   return (
@@ -345,7 +345,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { value: '15', unit: 'min', label: 'Gemiddelde ophaaltijd', icon: '⚡' },
-              { value: `€${location.popularRoutes[0]?.priceFrom || 35}`, unit: '', label: 'Vanaf prijs', icon: '💰' },
+              { value: '100', unit: '%', label: 'Tesla vloot', icon: '🚗' },
               { value: '24', unit: '/7', label: 'Altijd beschikbaar', icon: '🕐' },
               { value: '5.0', unit: '★', label: 'Google Rating', icon: '⭐' },
             ].map((stat, index) => (

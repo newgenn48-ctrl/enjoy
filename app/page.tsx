@@ -359,7 +359,7 @@ export default function HomePage() {
               </p>
 
               {/* Quick stats */}
-              <div className="grid grid-cols-3 gap-6 mb-8">
+              <div className="grid grid-cols-3 gap-6">
                 <div className="text-center p-4 bg-white rounded-xl border border-secondary-200">
                   <div className="text-2xl font-bold text-primary-600">{locations.length}</div>
                   <div className="text-sm text-secondary-500">Locaties</div>
@@ -373,16 +373,6 @@ export default function HomePage() {
                   <div className="text-sm text-secondary-500">Tesla</div>
                 </div>
               </div>
-
-              <Link
-                href="/locaties"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors"
-              >
-                Bekijk alle locaties
-                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
             </div>
 
             {/* Image */}
@@ -429,6 +419,19 @@ export default function HomePage() {
                 <p className="text-xs text-secondary-500 mt-1">{location.region}</p>
               </Link>
             ))}
+          </div>
+
+          {/* Button below grid */}
+          <div className="text-center mt-10">
+            <Link
+              href="/locaties"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-600 text-white font-semibold rounded-xl hover:bg-primary-700 transition-colors shadow-lg"
+            >
+              Bekijk alle locaties
+              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </div>
       </section>
