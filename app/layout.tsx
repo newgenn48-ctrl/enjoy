@@ -13,6 +13,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://enjoytaxi.nl'),
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
   title: {
     default: 'Taxi Den Haag & Leiden | 24/7 Premium Tesla Service | Enjoy Taxi',
     template: '%s',
