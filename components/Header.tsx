@@ -27,28 +27,30 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 overflow-x-hidden max-w-[100vw] ${
         isScrolled || isMobileMenuOpen
           ? 'bg-white/95 backdrop-blur-md shadow-soft'
           : 'bg-gradient-to-r from-white/50 via-white/20 to-transparent backdrop-blur-sm'
       }`}
     >
-      <nav className="container-custom">
+      <nav className="container-custom overflow-hidden">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center group overflow-hidden"
+            className="flex items-center group"
             aria-label="Enjoy Taxi Home"
           >
-            <Image
-              src="/logo.png"
-              alt="Enjoy Taxi Logo"
-              width={600}
-              height={180}
-              className="h-14 md:h-20 w-auto scale-[2] transition-all duration-300 group-hover:scale-[2.05]"
-              priority
-            />
+            <div className="w-24 md:w-36 h-10 md:h-12 overflow-hidden">
+              <Image
+                src="/logo.png"
+                alt="Enjoy Taxi Logo"
+                width={400}
+                height={120}
+                className="w-full h-full object-cover object-center scale-[1.8] transition-all duration-300 group-hover:scale-[1.85]"
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
