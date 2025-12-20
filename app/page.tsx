@@ -389,7 +389,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/Taxi Den haag.jpg"
+                  src="/Taxi-Den-Haag.webp"
                   alt="Taxi Den Haag"
                   width={600}
                   height={450}
@@ -400,9 +400,17 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Location Grid */}
+          {/* Location Grid - Wassenaar and Leidschendam first */}
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {locations.slice(0, 10).map((location) => (
+            {(() => {
+              const priorityLocations = locations.filter(loc =>
+                loc.slug === 'wassenaar' || loc.slug === 'leidschendam'
+              );
+              const otherLocations = locations.filter(loc =>
+                loc.slug !== 'wassenaar' && loc.slug !== 'leidschendam'
+              ).slice(0, 8);
+              return [...priorityLocations, ...otherLocations];
+            })().map((location) => (
               <Link
                 key={location.slug}
                 href={`/locations/${location.slug}`}

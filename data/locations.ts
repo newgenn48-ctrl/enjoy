@@ -352,14 +352,14 @@ export const locations: Location[] = [
       'Taxi Zoetermeer nodig? ✓ 24/7 beschikbaar ✓ Schiphol vanaf €65 ✓ Den Haag €30 ✓ Tesla comfort. Bel nu voor taxi Zoetermeer!',
   },
   {
-    slug: 'leidschendam-voorburg',
-    name: 'Leidschendam-Voorburg',
+    slug: 'leidschendam',
+    name: 'Leidschendam',
     region: 'Den Haag e.o.',
     description:
-      'Taxi Leidschendam-Voorburg bestellen? Enjoy Taxi biedt premium taxiservice. Ideaal gelegen voor snelle verbindingen naar Den Haag centrum, Schiphol en omliggende steden. 24/7 beschikbaar.',
+      'Taxi Leidschendam bestellen? Enjoy Taxi biedt premium taxiservice in Leidschendam. Direct bij Mall of the Netherlands en ideaal gelegen voor snelle verbindingen naar Den Haag en Schiphol. 24/7 beschikbaar.',
     longDescription:
-      'Taxi nodig in Leidschendam of Voorburg? Enjoy Taxi is uw betrouwbare taxiservice in deze gemeente. Gelegen tussen Den Haag en Zoetermeer, bent u met onze taxi snel op uw bestemming. Wij halen u op bij station Voorburg, winkelcentrum Leidsenhage, of waar u maar wilt. Populaire ritten zijn luchthaven transfers naar Schiphol, zakelijke ritten naar Den Haag, en uitstapjes naar de kust. Met vaste prijzen weet u vooraf wat u betaalt.',
-    highlights: ['Mall of the Netherlands', 'Station Voorburg', 'Vlietland', 'Historisch Voorburg', 'De Heuvel'],
+      'Taxi nodig in Leidschendam? Enjoy Taxi is uw betrouwbare taxiservice in Leidschendam. Gelegen tussen Den Haag en Zoetermeer, bent u met onze taxi snel op uw bestemming. Wij halen u op bij Mall of the Netherlands, Leidsenhage, of waar u maar wilt. Populaire ritten zijn luchthaven transfers naar Schiphol, zakelijke ritten naar Den Haag, en uitstapjes naar de kust. Met vaste prijzen weet u vooraf wat u betaalt.',
+    highlights: ['Mall of the Netherlands', 'Vlietland', 'Leidsenhage', 'De Heuvel', 'Vliet'],
     nearbyAirport: 'Rotterdam The Hague Airport',
     schipholDistance: '42 km',
     schipholTime: '30-45 minuten',
@@ -369,9 +369,31 @@ export const locations: Location[] = [
       { destination: 'Leiden', priceFrom: 25 },
       { destination: 'Zoetermeer', priceFrom: 20 },
     ],
-    metaTitle: 'Taxi Leidschendam-Voorburg | 24/7 Service | Enjoy Taxi',
+    metaTitle: 'Taxi Leidschendam | Mall of the Netherlands | 24/7 | Enjoy Taxi',
     metaDescription:
-      'Taxi Leidschendam-Voorburg nodig? ✓ 24/7 beschikbaar ✓ Schiphol vanaf €55 ✓ Vaste prijzen ✓ Tesla comfort. Bel nu!',
+      'Taxi Leidschendam nodig? ✓ 24/7 beschikbaar ✓ Mall of the Netherlands ✓ Schiphol vanaf €55 ✓ Vaste prijzen. Bel nu!',
+  },
+  {
+    slug: 'voorburg',
+    name: 'Voorburg',
+    region: 'Den Haag e.o.',
+    description:
+      'Taxi Voorburg bestellen? Enjoy Taxi biedt premium taxiservice in Voorburg. Historische stad direct naast Den Haag met uitstekende verbindingen. 24/7 beschikbaar met vaste prijzen.',
+    longDescription:
+      'Taxi nodig in Voorburg? Enjoy Taxi is uw betrouwbare taxiservice in dit historische stadje direct naast Den Haag. Voorburg staat bekend om haar rijke geschiedenis, mooie architectuur en goede voorzieningen. Wij halen u op bij Station Voorburg, het historische centrum, of waar u maar wilt. Of u nu naar Schiphol moet, een zakelijke afspraak heeft in Den Haag, of een dagje uit gaat - onze Tesla taxi staat voor u klaar.',
+    highlights: ['Station Voorburg', 'Historisch Centrum', 'Hofwijck', 'Essesteijn', 'Park Leeuwenbergh'],
+    nearbyAirport: 'Rotterdam The Hague Airport',
+    schipholDistance: '40 km',
+    schipholTime: '30-40 minuten',
+    popularRoutes: [
+      { destination: 'Den Haag', priceFrom: 18 },
+      { destination: 'Schiphol Airport', priceFrom: 52 },
+      { destination: 'Leiden', priceFrom: 28 },
+      { destination: 'Delft', priceFrom: 22 },
+    ],
+    metaTitle: 'Taxi Voorburg | 24/7 Service | Vaste Prijzen | Enjoy Taxi',
+    metaDescription:
+      'Taxi Voorburg nodig? ✓ 24/7 beschikbaar ✓ Station Voorburg ✓ Schiphol vanaf €52 ✓ Vaste prijzen. Bel nu!',
   },
   {
     slug: 'wassenaar',
