@@ -23,7 +23,7 @@ export const locations: Location[] = [
   {
     slug: 'den-haag',
     name: 'Den Haag en Omgeving',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Den Haag nodig? Enjoy Taxi biedt premium vervoer met Tesla in Den Haag en omgeving. Taxi naar Schiphol vanaf €79, zakelijk vervoer bij het Binnenhof, of taxi naar Scheveningen - wij rijden 24/7 met vaste prijzen.',
     longDescription:
@@ -266,7 +266,7 @@ export const locations: Location[] = [
   {
     slug: 'scheveningen',
     name: 'Scheveningen',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Scheveningen bestellen? Van de pier, Kurhaus of strand naar Schiphol of Den Haag Centrum. Enjoy Taxi biedt 24/7 taxi service in Scheveningen met vaste prijzen en Tesla comfort.',
     longDescription:
@@ -288,7 +288,7 @@ export const locations: Location[] = [
   {
     slug: 'delft',
     name: 'Delft',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Delft bestellen? Enjoy Taxi rijdt 24/7 in Delft. Taxi naar Schiphol vanaf €65, Rotterdam €25, Den Haag €25. Ideaal voor TU Delft bezoekers en toeristen. Vaste prijzen, Tesla comfort.',
     longDescription:
@@ -310,7 +310,7 @@ export const locations: Location[] = [
   {
     slug: 'rijswijk',
     name: 'Rijswijk',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Rijswijk bestellen? Enjoy Taxi biedt premium taxiservice in Rijswijk. Centraal gelegen tussen Den Haag en Delft, perfect voor zakelijke ritten en luchthaven transfers naar Schiphol.',
     longDescription:
@@ -332,7 +332,7 @@ export const locations: Location[] = [
   {
     slug: 'zoetermeer',
     name: 'Zoetermeer',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Zoetermeer bestellen? Enjoy Taxi biedt premium taxiservice in Zoetermeer. Snelle verbindingen naar Den Haag, Leiden en Schiphol met onze luxe Tesla vloot. 24/7 beschikbaar, vaste prijzen.',
     longDescription:
@@ -354,7 +354,7 @@ export const locations: Location[] = [
   {
     slug: 'leidschendam',
     name: 'Leidschendam',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Leidschendam bestellen? Enjoy Taxi biedt premium taxiservice in Leidschendam. Direct bij Mall of the Netherlands en ideaal gelegen voor snelle verbindingen naar Den Haag en Schiphol. 24/7 beschikbaar.',
     longDescription:
@@ -376,7 +376,7 @@ export const locations: Location[] = [
   {
     slug: 'voorburg',
     name: 'Voorburg',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Voorburg bestellen? Enjoy Taxi biedt premium taxiservice in Voorburg. Historische stad direct naast Den Haag met uitstekende verbindingen. 24/7 beschikbaar met vaste prijzen.',
     longDescription:
@@ -398,7 +398,7 @@ export const locations: Location[] = [
   {
     slug: 'wassenaar',
     name: 'Wassenaar',
-    region: 'Den Haag e.o.',
+    region: 'Den Haag en Omgeving',
     description:
       'Taxi Wassenaar bestellen? Enjoy Taxi biedt exclusieve taxiservice in Wassenaar. Onze Tesla vloot past perfect bij deze stijlvolle gemeente. 24/7 beschikbaar voor luchthaven transfers en meer.',
     longDescription:

@@ -400,15 +400,16 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Location Grid - Wassenaar and Leidschendam first */}
+          {/* Location Grid - Wassenaar, Leidschendam and Voorburg first */}
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {(() => {
-              const priorityLocations = locations.filter(loc =>
-                loc.slug === 'wassenaar' || loc.slug === 'leidschendam'
-              );
+              const prioritySlugs = ['wassenaar', 'leidschendam', 'voorburg'];
+              const priorityLocations = prioritySlugs
+                .map(slug => locations.find(loc => loc.slug === slug))
+                .filter((loc): loc is NonNullable<typeof loc> => loc !== undefined);
               const otherLocations = locations.filter(loc =>
-                loc.slug !== 'wassenaar' && loc.slug !== 'leidschendam'
-              ).slice(0, 8);
+                !prioritySlugs.includes(loc.slug)
+              ).slice(0, 7);
               return [...priorityLocations, ...otherLocations];
             })().map((location) => (
               <Link
