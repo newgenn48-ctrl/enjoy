@@ -30,7 +30,7 @@ export default function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled || isMobileMenuOpen
           ? 'bg-white/95 backdrop-blur-md shadow-soft'
-          : 'bg-gradient-to-b from-black/50 to-transparent pb-8'
+          : 'bg-gradient-to-r from-white/50 via-white/20 to-transparent backdrop-blur-sm'
       }`}
     >
       <nav className="container-custom">
@@ -44,11 +44,9 @@ export default function Header() {
             <Image
               src="/logo.png"
               alt="Enjoy Taxi Logo"
-              width={200}
-              height={60}
-              className={`h-12 md:h-14 w-auto scale-[3] origin-left transition-all duration-300 group-hover:scale-[3.1] ${
-                !isScrolled && !isMobileMenuOpen ? 'drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]' : ''
-              }`}
+              width={600}
+              height={180}
+              className="h-36 md:h-44 w-auto transition-all duration-300 group-hover:scale-105"
               priority
             />
           </Link>
