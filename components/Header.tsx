@@ -1,10 +1,12 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const navigation = [
   { name: 'Home', href: '/' },
+  { name: 'Locaties', href: '/locaties' },
   { name: 'Diensten', href: '/services' },
   { name: 'Over Ons', href: '/about' },
   { name: 'Contact', href: '/contact' },
@@ -26,9 +28,9 @@ export default function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
+        isScrolled || isMobileMenuOpen
           ? 'bg-white/95 backdrop-blur-md shadow-soft'
-          : 'bg-transparent'
+          : 'bg-gradient-to-b from-black/50 to-transparent pb-8'
       }`}
     >
       <nav className="container-custom">
@@ -36,32 +38,19 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center space-x-2 group"
+            className="flex items-center group"
             aria-label="Enjoy Taxi Home"
           >
-            <div className="relative">
-              <div className="w-10 h-10 rounded-full bg-gradient-primary flex items-center justify-center transition-shadow duration-300 group-hover:shadow-primary">
-                <svg
-                  className="w-6 h-6 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <span className="text-xl font-bold">
-              <span className={`transition-colors duration-300 ${isScrolled ? 'text-secondary-800' : 'text-white'}`}>Enjoy</span>
-              {' '}
-              <span className={`transition-colors duration-300 ${isScrolled ? 'text-primary-600' : 'text-primary-300'}`}>Taxi</span>
-            </span>
+            <Image
+              src="/logo.png"
+              alt="Enjoy Taxi Logo"
+              width={200}
+              height={60}
+              className={`h-12 md:h-14 w-auto scale-[3] origin-left transition-all duration-300 group-hover:scale-[3.1] ${
+                !isScrolled && !isMobileMenuOpen ? 'drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]' : ''
+              }`}
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -117,7 +106,7 @@ export default function Header() {
           <button
             type="button"
             className={`md:hidden p-2 transition-colors ${
-              isScrolled
+              isScrolled || isMobileMenuOpen
                 ? 'text-secondary-600 hover:text-primary-600'
                 : 'text-white hover:text-white/80'
             }`}
@@ -163,10 +152,10 @@ export default function Header() {
         {/* Mobile Menu */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-300 ${
-            isMobileMenuOpen ? 'max-h-96 pb-6' : 'max-h-0'
+            isMobileMenuOpen ? 'max-h-[500px] pb-6' : 'max-h-0'
           }`}
         >
-          <div className="flex flex-col space-y-4 pt-4 border-t border-secondary-200">
+          <div className="flex flex-col space-y-4 pt-4 mt-2 bg-white rounded-xl p-4 shadow-lg">
             {navigation.map((item) => (
               <Link
                 key={item.name}
