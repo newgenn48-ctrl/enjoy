@@ -38,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link
             href="/"
-            className="flex items-center group"
+            className="flex items-center group overflow-hidden"
             aria-label="Enjoy Taxi Home"
           >
             <Image
@@ -46,7 +46,7 @@ export default function Header() {
               alt="Enjoy Taxi Logo"
               width={600}
               height={180}
-              className="h-36 md:h-44 w-auto transition-all duration-300 group-hover:scale-105"
+              className="h-14 md:h-20 w-auto scale-[2] transition-all duration-300 group-hover:scale-[2.05]"
               priority
             />
           </Link>
