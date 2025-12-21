@@ -30,7 +30,7 @@ export default function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 overflow-x-hidden max-w-[100vw] ${
         isScrolled || isMobileMenuOpen
           ? 'bg-white/95 backdrop-blur-md shadow-soft'
-          : 'bg-gradient-to-r from-white/50 via-white/20 to-transparent backdrop-blur-sm'
+          : 'backdrop-blur-sm'
       }`}
     >
       <nav className="container-custom overflow-hidden">
@@ -47,7 +47,7 @@ export default function Header() {
                 alt="Enjoy Taxi Logo"
                 width={400}
                 height={120}
-                className="w-full h-full object-cover object-center scale-[1.8] transition-all duration-300 group-hover:scale-[1.85]"
+                className="w-full h-full object-cover object-center scale-[1.6] transition-all duration-300 group-hover:scale-[1.65]"
                 priority
               />
             </div>
