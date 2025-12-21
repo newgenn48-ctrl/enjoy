@@ -90,13 +90,13 @@ export default function ReviewList() {
         </div>
 
         {/* Google Rating Banner */}
-        <div className="flex items-center justify-center mb-16">
-          <div className="inline-flex items-center gap-6 px-8 py-6 bg-white rounded-2xl shadow-xl shadow-secondary-900/5 border border-secondary-100">
+        <div className="flex items-center justify-center mb-16 px-4">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 px-6 sm:px-8 py-6 bg-white rounded-2xl shadow-xl shadow-secondary-900/5 border border-secondary-100">
             <div className="flex items-center gap-1">
               {[...Array(5)].map((_, index) => (
                 <svg
                   key={index}
-                  className="w-7 h-7 text-amber-400"
+                  className="w-6 h-6 sm:w-7 sm:h-7 text-amber-400"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   aria-hidden="true"
@@ -105,15 +105,17 @@ export default function ReviewList() {
                 </svg>
               ))}
             </div>
-            <div className="h-12 w-px bg-secondary-200" />
-            <div className="text-center">
-              <div className="text-4xl font-bold text-secondary-900">5.0</div>
-              <div className="text-sm text-secondary-500 font-medium">Gemiddelde score</div>
-            </div>
-            <div className="h-12 w-px bg-secondary-200" />
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary-600">127</div>
-              <div className="text-sm text-secondary-500 font-medium">Beoordelingen</div>
+            <div className="hidden sm:block h-12 w-px bg-secondary-200" />
+            <div className="flex items-center gap-6 sm:gap-6">
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-secondary-900">5.0</div>
+                <div className="text-xs sm:text-sm text-secondary-500 font-medium">Gemiddelde</div>
+              </div>
+              <div className="h-10 w-px bg-secondary-200" />
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl font-bold text-primary-600">127</div>
+                <div className="text-xs sm:text-sm text-secondary-500 font-medium">Reviews</div>
+              </div>
             </div>
           </div>
         </div>
