@@ -47,7 +47,7 @@ export default function Header() {
                 alt="Enjoy Taxi Logo"
                 width={400}
                 height={120}
-                className="w-full h-full object-cover object-center scale-[1.6] transition-all duration-300 group-hover:scale-[1.65]"
+                className="w-full h-full object-cover object-center scale-[1.7] transition-all duration-300 group-hover:scale-[1.75]"
                 priority
               />
             </div>
