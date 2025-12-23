@@ -92,7 +92,7 @@ export const locations: Location[] = [
     name: 'Laak',
     region: 'Den Haag',
     description:
-      'Taxi Laak bestellen? Enjoy Taxi biedt premium taxiservice in Laak, Den Haag. Dichtbij Den Haag HS en Hollands Spoor. Ideaal voor forensen en bewoners. 24/7 beschikbaar.',
+      'Taxi Laak bestellen? Enjoy Taxi biedt premium Tesla taxiservice in Laak, Den Haag. Dichtbij Den Haag HS en Hollands Spoor. 24/7 beschikbaar met vaste prijzen.',
     longDescription:
       'Op zoek naar een taxi in Laak? Enjoy Taxi is de premium taxiservice voor deze dynamische wijk van Den Haag. Laak ligt direct bij Station Hollands Spoor en is een belangrijke verbindingswijk. Wij vervoeren dagelijks forensen, bewoners en bezoekers van deze multiculturele wijk. Of u nu naar de luchthaven moet of een rit door de stad - onze Tesla taxi biedt comfort en betrouwbaarheid tegen vaste prijzen.',
     highlights: ['Den Haag HS', 'Hollands Spoor', 'Laakkwartier', 'Binckhorst', 'Spoorwijk'],
@@ -114,7 +114,7 @@ export const locations: Location[] = [
     name: 'Loosduinen',
     region: 'Den Haag',
     description:
-      'Taxi Loosduinen bestellen? Enjoy Taxi biedt premium taxiservice in Loosduinen, Den Haag. Dichtbij Kijkduin en de kust. Ideaal voor strandgangers en bewoners. 24/7 beschikbaar.',
+      'Taxi Loosduinen bestellen? Enjoy Taxi biedt premium Tesla taxiservice in Loosduinen, Den Haag. Dichtbij Kijkduin en de kust. 24/7 beschikbaar met vaste prijzen.',
     longDescription:
       'Taxi nodig in Loosduinen? Enjoy Taxi is uw betrouwbare taxipartner in dit westelijke stadsdeel van Den Haag. Loosduinen ligt dicht bij Kijkduin en de Westlandse kust, perfect voor strandliefhebbers. Wij vervoeren bewoners naar de luchthaven, toeristen naar het strand, en zakelijke reizigers naar het centrum. Met onze Tesla vloot reist u comfortabel en milieuvriendelijk door de stad.',
     highlights: ['Kijkduin', 'Loosduinse Hoofdplein', 'Westland', 'Zuiderpark', 'De Uithof'],
@@ -290,7 +290,7 @@ export const locations: Location[] = [
     name: 'Delft',
     region: 'Den Haag en Omgeving',
     description:
-      'Taxi Delft bestellen? Enjoy Taxi rijdt 24/7 in Delft met onze premium Tesla vloot. Ideaal voor TU Delft bezoekers, toeristen en bewoners. Vaste prijzen, maximaal comfort.',
+      'Taxi Delft bestellen? Enjoy Taxi rijdt 24/7 in Delft met onze premium Tesla vloot. Vaste prijzen, professionele chauffeurs en maximaal comfort.',
     longDescription:
       'Op zoek naar een taxi in Delft? Enjoy Taxi biedt premium taxiservice in de historische stad Delft. Wij vervoeren dagelijks studenten en medewerkers van de TU Delft, toeristen die het centrum en de beroemde Delfts Blauw fabrieken bezoeken, en zakelijke reizigers. Vanaf Delft Station of het centrum brengen wij u comfortabel naar Schiphol, Rotterdam The Hague Airport of andere bestemmingen. Met onze Tesla vloot reist u stil, schoon en stijlvol door de Randstad.',
     highlights: ['TU Delft Campus', 'Oude Kerk & Nieuwe Kerk', 'Markt', 'Royal Delft', 'Station Delft', 'Prinsenhof'],
@@ -423,7 +423,7 @@ export const locations: Location[] = [
     name: 'Leiden',
     region: 'Leiden e.o.',
     description:
-      'Taxi Leiden bestellen? Enjoy Taxi biedt premium Tesla vervoer in Leiden en omgeving. 24/7 beschikbaar met vaste prijzen. Ideaal voor universiteit, LUMC en het historische centrum.',
+      'Taxi Leiden bestellen? Enjoy Taxi biedt premium Tesla vervoer in Leiden en omgeving. 24/7 beschikbaar met vaste prijzen en professionele chauffeurs.',
     longDescription:
       'Bent u op zoek naar een betrouwbare taxi in Leiden? Enjoy Taxi is de premium taxiservice voor de oudste universiteitsstad van Nederland. Wij vervoeren dagelijks studenten, wetenschappers en bezoekers van de Universiteit Leiden en het LUMC. Ook toeristen die de historische binnenstad, musea en grachten verkennen maken graag gebruik van onze service. Vanaf Leiden Centraal of elke andere locatie in Leiden brengen wij u comfortabel naar Schiphol, Den Haag of andere bestemmingen.',
     highlights: ['Universiteit Leiden', 'LUMC', 'Leiden Centraal', 'Pieterskerk', 'Naturalis', 'Hortus Botanicus', 'Rijksmuseum van Oudheden'],
@@ -467,7 +467,7 @@ export const locations: Location[] = [
     name: 'Noordwijk',
     region: 'Leiden e.o.',
     description:
-      'Taxi Noordwijk bestellen? Enjoy Taxi biedt premium taxiservice in Noordwijk aan Zee. Ideaal voor congresgangers, Space Expo bezoekers en strandliefhebbers. 24/7 beschikbaar met vaste prijzen.',
+      'Taxi Noordwijk bestellen? Enjoy Taxi biedt premium Tesla taxiservice in Noordwijk aan Zee. 24/7 beschikbaar met vaste prijzen en professionele chauffeurs.',
     longDescription:
       'Op zoek naar een taxi in Noordwijk? Enjoy Taxi is de premium taxiservice voor deze populaire badplaats en congreslocatie. Noordwijk is bekend om haar stranden, bloembollenvelden en Space Expo. Wij vervoeren dagelijks hotelgasten, congresgangers en toeristen. Of u nu naar Schiphol moet voor een vlucht, naar een congres in het Huis ter Duin, of een dagje uit in de regio - onze Tesla taxi staat voor u klaar.',
     highlights: ['Space Expo', 'Huis ter Duin', 'Strand Noordwijk', 'Bloembollenvelden', 'Golfbaan'],
