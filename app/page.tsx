@@ -305,10 +305,10 @@ export default function HomePage() {
                 Onze Locaties
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-6">
-                Taxi Den Haag, Leiden & Omgeving
+                Taxi Den Haag & Omgeving
               </h2>
               <p className="text-lg text-secondary-600 mb-8">
-                Premium taxi service in heel Zuid-Holland. Van Den Haag tot Leiden, van Scheveningen tot Delft - wij rijden overal.
+                Premium taxi service in <strong>Den Haag</strong> en omgeving. Van <strong>Wassenaar</strong> tot <strong>Voorburg</strong>, van <strong>Leidschendam</strong> tot <strong>Scheveningen</strong> - wij rijden overal.
               </p>
 
               {/* Quick stats */}
