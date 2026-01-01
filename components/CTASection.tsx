@@ -16,7 +16,7 @@ export default function CTASection({
   showContact = true,
 }: CTASectionProps) {
   return (
-    <section className="section-blue relative overflow-hidden">
+    <section className="section-primary relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div

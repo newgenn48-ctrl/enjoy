@@ -124,7 +124,7 @@ export default function ReviewList() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {reviews.map((review, index) => {
             const gradients = [
-              'from-blue-500 to-cyan-500',
+              'from-emerald-500 to-teal-500',
               'from-purple-500 to-pink-500',
               'from-orange-500 to-amber-500',
               'from-emerald-500 to-teal-500',

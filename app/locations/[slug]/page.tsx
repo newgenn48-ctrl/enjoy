@@ -35,9 +35,9 @@ const benefits = [
   {
     title: '24/7 Beschikbaar',
     description: 'Dag en nacht, 365 dagen per jaar bereikbaar.',
-    gradient: 'from-blue-500 to-indigo-600',
-    iconBg: 'bg-blue-100',
-    iconColor: 'text-blue-600',
+    gradient: 'from-emerald-500 to-teal-600',
+    iconBg: 'bg-emerald-100',
+    iconColor: 'text-emerald-600',
     icon: (
       <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -209,7 +209,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
           <div className="absolute inset-0 bg-gradient-to-br from-secondary-900/95 via-secondary-900/85 to-primary-900/75" />
           {/* Animated gradient orbs */}
           <div className="absolute top-1/4 left-1/4 w-[600px] h-[600px] bg-primary-500/20 rounded-full blur-[150px] animate-pulse" />
-          <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-blue-500/15 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '1s' }} />
+          <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-emerald-500/15 rounded-full blur-[120px] animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
 
         {/* Content */}
@@ -237,7 +237,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
 
               {/* Main Title */}
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6 leading-[1.1]">
-                Taxi <span className="bg-gradient-to-r from-primary-300 via-primary-400 to-blue-400 bg-clip-text text-transparent">{location.name}</span>
+                Taxi <span className="bg-gradient-to-r from-primary-300 via-primary-400 to-emerald-400 bg-clip-text text-transparent">{location.name}</span>
               </h1>
 
               <p className="text-xl md:text-2xl text-white/80 mb-8 leading-relaxed max-w-xl">
@@ -298,7 +298,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
             <div className="hidden lg:block">
               <div className="relative">
                 {/* Glow effect */}
-                <div className="absolute -inset-4 bg-gradient-to-r from-primary-500/30 to-blue-500/30 rounded-3xl blur-2xl" />
+                <div className="absolute -inset-4 bg-gradient-to-r from-primary-500/30 to-emerald-500/30 rounded-3xl blur-2xl" />
 
                 {/* Card */}
                 <div className="relative bg-white/10 backdrop-blur-xl rounded-3xl border border-white/20 p-8 shadow-2xl">
@@ -724,10 +724,10 @@ export default async function LocationPage({ params }: LocationPageProps) {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {sameRegionLocations.map((loc, index) => {
                 const gradients = [
-                  'from-blue-500 to-cyan-500',
+                  'from-emerald-500 to-teal-500',
                   'from-purple-500 to-pink-500',
                   'from-orange-500 to-amber-500',
-                  'from-emerald-500 to-teal-500',
+                  'from-teal-500 to-emerald-500',
                 ]
                 return (
                   <Link
@@ -773,7 +773,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
         {/* Background decorations */}
         <div className="absolute inset-0">
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-primary-500/10 rounded-full blur-[120px]" />
-          <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-[100px]" />
+          <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-emerald-500/10 rounded-full blur-[100px]" />
         </div>
         {/* Grid pattern */}
         <div className="absolute inset-0 opacity-5">
@@ -802,14 +802,14 @@ export default async function LocationPage({ params }: LocationPageProps) {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
             {otherLocations.map((loc, index) => {
               const gradients = [
-                'from-blue-500 to-cyan-500',
+                'from-emerald-500 to-teal-500',
                 'from-purple-500 to-pink-500',
                 'from-orange-500 to-amber-500',
-                'from-emerald-500 to-teal-500',
+                'from-teal-500 to-emerald-500',
                 'from-rose-500 to-red-500',
                 'from-indigo-500 to-violet-500',
                 'from-yellow-500 to-orange-500',
-                'from-cyan-500 to-blue-500',
+                'from-teal-500 to-emerald-500',
               ]
               return (
                 <Link

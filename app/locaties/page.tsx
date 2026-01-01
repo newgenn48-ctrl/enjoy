@@ -28,7 +28,7 @@ export default function LocatiesPage() {
   const airports = locations.filter(loc => loc.region === 'Luchthaven')
 
   const gradients = [
-    'from-blue-500 to-cyan-500',
+    'from-emerald-500 to-teal-500',
     'from-purple-500 to-pink-500',
     'from-orange-500 to-amber-500',
     'from-emerald-500 to-teal-500',
@@ -207,7 +207,7 @@ export default function LocatiesPage() {
       <section className="py-20 bg-secondary-50">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-700 text-sm font-medium mb-4">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 text-sm font-medium mb-4">
               Regio Den Haag
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-4">
@@ -223,15 +223,15 @@ export default function LocatiesPage() {
               <Link
                 key={location.slug}
                 href={`/locations/${location.slug}`}
-                className="group p-6 bg-white rounded-xl border border-secondary-200 hover:border-blue-300 hover:shadow-lg transition-all text-center"
+                className="group p-6 bg-white rounded-xl border border-secondary-200 hover:border-emerald-300 hover:shadow-lg transition-all text-center"
               >
-                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform`}>
+                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform`}>
                   <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
-                <h3 className="font-semibold text-secondary-900 group-hover:text-blue-600 transition-colors">
+                <h3 className="font-semibold text-secondary-900 group-hover:text-emerald-600 transition-colors">
                   {location.name}
                 </h3>
               </Link>

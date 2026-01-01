@@ -48,7 +48,7 @@ const services = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
       </svg>
     ),
-    gradient: 'from-blue-500 to-cyan-500',
+    gradient: 'from-emerald-500 to-teal-500',
   },
   {
     id: 'zakelijk',
