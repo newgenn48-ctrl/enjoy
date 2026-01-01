@@ -232,17 +232,17 @@ export default function Hero() {
                 {/* Car body - main shape with 3D gradient */}
                 <defs>
                   <linearGradient id="bodyGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#34d399" />
-                    <stop offset="50%" stopColor="#10b981" />
-                    <stop offset="100%" stopColor="#059669" />
+                    <stop offset="0%" stopColor="#91ce4d" />
+                    <stop offset="50%" stopColor="#79ba3a" />
+                    <stop offset="100%" stopColor="#5f9a2a" />
                   </linearGradient>
                   <linearGradient id="windowGradient" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor="#1a1a2e" />
                     <stop offset="100%" stopColor="#0d0d1a" />
                   </linearGradient>
                   <linearGradient id="roofGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#6ee7b7" />
-                    <stop offset="100%" stopColor="#34d399" />
+                    <stop offset="0%" stopColor="#aede6b" />
+                    <stop offset="100%" stopColor="#91ce4d" />
                   </linearGradient>
                   <filter id="carShadow" x="-20%" y="-20%" width="140%" height="140%">
                     <feDropShadow dx="2" dy="4" stdDeviation="3" floodOpacity="0.4"/>
@@ -291,7 +291,7 @@ export default function Hero() {
                 <rect x="38" y="13" width="4" height="9" fill="url(#bodyGradient)" />
 
                 {/* Door line */}
-                <line x1="40" y1="22" x2="40" y2="32" stroke="#047857" strokeWidth="0.5" />
+                <line x1="40" y1="22" x2="40" y2="32" stroke="#497624" strokeWidth="0.5" />
 
                 {/* Front wheel well */}
                 <path d="M16 32C16 28 20 26 24 26C28 26 32 28 32 32" fill="#1a1a2e" />
@@ -328,12 +328,12 @@ export default function Hero() {
                 <rect x="8" y="25" width="5" height="4" rx="1" fill="#FF3333" opacity="0.3" />
 
                 {/* Tesla logo area - front */}
-                <circle cx="68" cy="22" r="2" fill="#10b981" stroke="#34d399" strokeWidth="0.5" />
+                <circle cx="68" cy="22" r="2" fill="#79ba3a" stroke="#91ce4d" strokeWidth="0.5" />
 
                 {/* Chrome trim */}
                 <path
                   d="M10 28L70 28"
-                  stroke="#6ee7b7"
+                  stroke="#aede6b"
                   strokeWidth="0.5"
                 />
 

@@ -106,7 +106,7 @@ export default function RootLayout({
     <html lang="nl" className={inter.variable}>
       <head>
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#059669" />
+        <meta name="theme-color" content="#79ba3a" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-17817067496"
           strategy="afterInteractive"

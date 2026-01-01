@@ -7,19 +7,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Primary - Professional Emerald Green
+        // Primary - Enjoy Taxi Green (#79ba3a)
         primary: {
-          50: '#ecfdf5',
-          100: '#d1fae5',
-          200: '#a7f3d0',
-          300: '#6ee7b7',
-          400: '#34d399',
-          500: '#10b981', // Main Green
-          600: '#059669', // Emerald Green
-          700: '#047857',
-          800: '#065f46',
-          900: '#064e3b',
-          950: '#022c22',
+          50: '#f4fbe8',
+          100: '#e7f6ce',
+          200: '#cfeda2',
+          300: '#aede6b',
+          400: '#91ce4d',
+          500: '#79ba3a', // Logo Green
+          600: '#5f9a2a', // Darker Green
+          700: '#497624',
+          800: '#3c5e22',
+          900: '#344f20',
+          950: '#1a2b0e',
         },
         // Secondary - Slate (professional grays)
         secondary: {
@@ -58,16 +58,16 @@ module.exports = {
         display: ['Inter', 'system-ui', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%)',
-        'gradient-hero': 'linear-gradient(135deg, #065f46 0%, #059669 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #5f9a2a 0%, #79ba3a 50%, #91ce4d 100%)',
+        'gradient-hero': 'linear-gradient(135deg, #3c5e22 0%, #5f9a2a 100%)',
         'gradient-subtle': 'linear-gradient(180deg, #f8fafc 0%, #ffffff 100%)',
         'gradient-card': 'linear-gradient(180deg, #ffffff 0%, #f8fafc 100%)',
       },
       boxShadow: {
         'soft': '0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)',
         'medium': '0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 30px -5px rgba(0, 0, 0, 0.04)',
-        'primary': '0 4px 20px -2px rgba(5, 150, 105, 0.25)',
-        'primary-lg': '0 10px 40px -5px rgba(5, 150, 105, 0.3)',
+        'primary': '0 4px 20px -2px rgba(121, 186, 58, 0.25)',
+        'primary-lg': '0 10px 40px -5px rgba(121, 186, 58, 0.3)',
         'accent': '0 4px 20px -2px rgba(245, 158, 11, 0.25)',
       },
       animation: {
