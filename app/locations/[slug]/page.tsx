@@ -18,64 +18,12 @@ const airportPrices = [
   { airport: 'Eindhoven Airport', code: 'EIN', price: 149, duration: '90 min', icon: '🛩️' },
 ]
 
-// Benefits/features with enhanced icons
-const benefits = [
-  {
-    title: 'Vaste Prijzen',
-    description: 'Geen verrassingen, ook niet bij files of omrijden.',
-    gradient: 'from-emerald-500 to-teal-600',
-    iconBg: 'bg-emerald-100',
-    iconColor: 'text-emerald-600',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: '24/7 Beschikbaar',
-    description: 'Dag en nacht, 365 dagen per jaar bereikbaar.',
-    gradient: 'from-emerald-500 to-teal-600',
-    iconBg: 'bg-emerald-100',
-    iconColor: 'text-emerald-600',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Tesla Comfort',
-    description: 'Luxe, stil en 100% elektrisch rijden.',
-    gradient: 'from-violet-500 to-purple-600',
-    iconBg: 'bg-violet-100',
-    iconColor: 'text-violet-600',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
-  },
-  {
-    title: 'Pro Chauffeurs',
-    description: 'Ervaren en discrete professionals.',
-    gradient: 'from-amber-500 to-orange-600',
-    iconBg: 'bg-amber-100',
-    iconColor: 'text-amber-600',
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-      </svg>
-    ),
-  },
-]
-
 // Testimonials
 const testimonials = [
   {
     name: 'Mark de Vries',
     role: 'Zakelijke klant',
-    text: 'Fantastische service! Altijd op tijd, professionele chauffeurs en de Tesla is heerlijk comfortabel.',
+    text: 'Fantastische service! Altijd op tijd, professionele chauffeurs en de auto is heerlijk comfortabel.',
     rating: 5,
   },
   {
@@ -109,7 +57,7 @@ export async function generateMetadata({ params }: LocationPageProps): Promise<M
     `taxi ${location.name.toLowerCase()} 24 uur`,
     `taxi reserveren ${location.name.toLowerCase()}`,
     `taxi bellen ${location.name.toLowerCase()}`,
-    'premium taxi', 'tesla taxi', '24/7 taxi', 'vaste prijs taxi',
+    'premium taxi', 'taxi vaste prijs', '24/7 taxi', 'vaste prijs taxi',
     'zakelijk vervoer', 'luchthaven taxi', 'taxi zuid-holland',
   ]
 
@@ -140,7 +88,7 @@ function getLocationFaqs(locationName: string) {
     },
     {
       question: `Hoe snel kan er een taxi in ${locationName} zijn?`,
-      answer: `In ${locationName} kunnen wij meestal binnen 15-20 minuten een Tesla taxi bij u hebben. Voor geplande ritten raden wij reserveren aan.`,
+      answer: `In ${locationName} kunnen wij meestal binnen 15-20 minuten een taxi bij u hebben. Voor geplande ritten raden wij reserveren aan.`,
     },
     {
       question: `Wat zijn de tarieven voor een taxi in ${locationName}?`,
@@ -277,7 +225,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
                   <svg className="w-4 h-4 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
-                  <span className="text-sm font-medium text-white">100% Tesla</span>
+                  <span className="text-sm font-medium text-white">Vaste Prijzen</span>
                 </div>
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
                   <svg className="w-4 h-4 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -309,11 +257,11 @@ export default async function LocationPage({ params }: LocationPageProps) {
                       </svg>
                     </div>
                     <h3 className="text-xl font-bold text-white">Taxi {location.name} Bellen</h3>
-                    <span className="text-primary-300 text-sm">24/7 Tesla Taxi Service</span>
+                    <span className="text-primary-300 text-sm">24/7 Premium Taxi Service</span>
                   </div>
 
                   <div className="space-y-3 mb-6">
-                    {['Vaste prijs, geen verrassingen', 'Binnen 15 min ophalen mogelijk', '100% elektrische Tesla vloot', 'Professionele chauffeurs'].map((item, i) => (
+                    {['Vaste prijs, geen verrassingen', 'Binnen 15 min ophalen mogelijk', '100% betrouwbare service', 'Professionele chauffeurs'].map((item, i) => (
                       <div key={i} className="flex items-center gap-3 text-white/80">
                         <svg className="w-5 h-5 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -349,7 +297,7 @@ export default async function LocationPage({ params }: LocationPageProps) {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { value: '15', unit: 'min', label: 'Gemiddelde ophaaltijd', icon: '⚡' },
-              { value: '100', unit: '%', label: 'Tesla vloot', icon: '🚗' },
+              { value: '100', unit: '%', label: 'Betrouwbare service', icon: '🚗' },
               { value: '24', unit: '/7', label: 'Altijd beschikbaar', icon: '🕐' },
               { value: '5.0', unit: '★', label: 'Google Rating', icon: '⭐' },
             ].map((stat, index) => (
@@ -610,45 +558,6 @@ export default async function LocationPage({ params }: LocationPageProps) {
                 Boek Nu
               </a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* BENEFITS SECTION - Modern Cards */}
-      <section className="py-20 bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-100 text-primary-700 text-sm font-semibold mb-6">
-              Waarom Enjoy Taxi
-            </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-secondary-900 mb-4">
-              Waarom Taxi {location.name} bij Enjoy?
-            </h2>
-            <p className="text-xl text-secondary-600 max-w-2xl mx-auto">
-              Premium Tesla taxi service met vaste prijzen in {location.name}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit) => (
-              <div
-                key={benefit.title}
-                className="group relative p-8 bg-white rounded-3xl border border-secondary-200 hover:border-transparent hover:shadow-2xl transition-all duration-500 overflow-hidden"
-              >
-                {/* Hover gradient background */}
-                <div className={`absolute inset-0 bg-gradient-to-br ${benefit.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
-
-                <div className={`relative w-16 h-16 rounded-2xl ${benefit.iconBg} ${benefit.iconColor} flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                  {benefit.icon}
-                </div>
-                <h3 className="text-xl font-bold text-secondary-900 mb-3">
-                  {benefit.title}
-                </h3>
-                <p className="text-secondary-600">
-                  {benefit.description}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
