@@ -10,7 +10,7 @@ interface CTASectionProps {
 
 export default function CTASection({
   title = 'Klaar om te Rijden?',
-  subtitle = 'Boek nu uw premium elektrische taxi en ervaar het verschil.',
+  subtitle = 'Boek nu en ervaar betrouwbaar vervoer met vaste prijzen.',
   showPhone = true,
   showWhatsApp = true,
   showContact = true,

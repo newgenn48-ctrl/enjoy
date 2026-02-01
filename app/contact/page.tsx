@@ -6,7 +6,7 @@ import ContactForm from '@/components/ContactForm'
 export const metadata: Metadata = {
   title: 'Contact Taxi Den Haag | Bel 06 2017 2767 | Enjoy Taxi',
   description:
-    'Contact Enjoy Taxi Den Haag. ✓ Bel 06 2017 2767 ✓ WhatsApp ✓ Direct boeken. Premium Tesla taxi service 24/7 beschikbaar in Den Haag en omgeving.',
+    'Contact Enjoy Taxi Den Haag. ✓ Bel 06 2017 2767 ✓ WhatsApp ✓ Direct boeken. Premium taxi service 24/7 beschikbaar in Den Haag en omgeving.',
   keywords: [
     'taxi den haag contact',
     'taxi bellen den haag',
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Taxi Den Haag | Bel Direct | Enjoy Taxi',
     description:
-      'Neem contact op met Enjoy Taxi. Bel 06 2017 2767 of WhatsApp voor directe boeking van uw premium Tesla taxi.',
+      'Neem contact op met Enjoy Taxi. Bel 06 2017 2767 of WhatsApp voor directe boeking van uw premium taxi.',
     url: 'https://enjoytaxi.nl/contact',
   },
   alternates: {
@@ -70,7 +70,7 @@ export default function ContactPage() {
         <div className="absolute inset-0">
           <Image
             src="/enjoy taxi.webp"
-            alt="Enjoy Taxi - Premium Elektrische Tesla Taxi"
+            alt="Enjoy Taxi - Taxi Den Haag met Vaste Prijzen"
             fill
             className="object-cover"
             priority

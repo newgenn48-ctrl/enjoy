@@ -4,20 +4,20 @@ import Link from 'next/link'
 import CTASection from '@/components/CTASection'
 
 export const metadata: Metadata = {
-  title: 'Over Enjoy Taxi Den Haag | 100% Tesla Taxi Service',
+  title: 'Over Enjoy Taxi Den Haag | Premium Taxi Service | Vaste Prijzen',
   description:
-    'Over Enjoy Taxi: premium taxi service in Den Haag met 100% elektrische Tesla vloot. ✓ Professionele chauffeurs ✓ Duurzaam ✓ Luxe comfort ✓ 24/7 service.',
+    'Over Enjoy Taxi: premium taxi service in Den Haag met 100% betrouwbare service. ✓ Professionele chauffeurs ✓ Duurzaam ✓ Luxe comfort ✓ 24/7 service.',
   keywords: [
     'enjoy taxi den haag',
-    'tesla taxi service',
-    'elektrische taxi den haag',
+    'taxi vaste prijzen',
+    'taxi vaste prijs den haag',
     'premium taxi den haag',
     'duurzame taxi',
   ],
   openGraph: {
-    title: 'Over Enjoy Taxi | Premium Tesla Taxi Den Haag',
+    title: 'Over Enjoy Taxi | Premium Taxi Den Haag',
     description:
-      'Ontdek het verhaal achter Enjoy Taxi en onze passie voor duurzaam premium vervoer met 100% Tesla vloot.',
+      'Ontdek het verhaal achter Enjoy Taxi en onze passie voor duurzaam premium vervoer met 100% betrouwbare service.',
     url: 'https://enjoytaxi.nl/about',
   },
   alternates: {
@@ -29,7 +29,7 @@ const values = [
   {
     title: 'Duurzaamheid',
     description:
-      'Wij geloven dat luxe en duurzaamheid hand in hand gaan. Onze 100% elektrische vloot is ons commitment aan een schonere toekomst.',
+      'Wij geloven dat luxe en duurzaamheid hand in hand gaan. Onze 100% betrouwbare service is ons commitment aan een schonere toekomst.',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -59,7 +59,7 @@ const values = [
   {
     title: 'Innovatie',
     description:
-      'Wij blijven vooroplopen in technologie en service. Tesla voertuigen, geavanceerde boekingssystemen en continue verbetering.',
+      'Wij blijven vooroplopen in technologie en service. premium voertuigen, geavanceerde boekingssystemen en continue verbetering.',
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -69,7 +69,7 @@ const values = [
 ]
 
 const milestones = [
-  { year: '2020', title: 'Oprichting', description: 'Start met eerste Tesla Model S' },
+  { year: '2020', title: 'Oprichting', description: 'Start met eerste premium voertuig' },
   { year: '2021', title: 'Groei', description: 'Uitbreiding naar 5 voertuigen' },
   { year: '2022', title: 'Uitbreiding', description: 'Service in Den Haag & Leiden' },
   { year: '2023', title: '1000 Klanten', description: 'Mijlpaal: 1000 tevreden klanten' },
@@ -77,7 +77,7 @@ const milestones = [
 ]
 
 const stats = [
-  { value: '100%', label: 'Elektrisch' },
+  { value: '100%', label: 'Betrouwbaar' },
   { value: '1000+', label: 'Tevreden Klanten' },
   { value: '5.0', label: 'Google Rating' },
   { value: '24/7', label: 'Beschikbaar' },
@@ -92,7 +92,7 @@ export default function AboutPage() {
         <div className="absolute inset-0">
           <Image
             src="/enjoy taxi.webp"
-            alt="Enjoy Taxi - Premium Elektrische Tesla Taxi"
+            alt="Enjoy Taxi - Taxi Den Haag met Vaste Prijzen"
             fill
             className="object-cover"
             priority
@@ -174,14 +174,14 @@ export default function AboutPage() {
                   besloten dat het anders kon en moest.
                 </p>
                 <p>
-                  Met onze eerste Tesla Model S startten we een revolutie in de
+                  Met onze eerste premium voertuig startten we een revolutie in de
                   Nederlandse taxibranche. Geen compromissen op comfort, geen
                   compromissen op duurzaamheid.
                 </p>
                 <p>
                   Vandaag de dag bedienen we meer dan 1000 tevreden klanten in
-                  Den Haag, Leiden en omgeving, met een volledig elektrische vloot van premium
-                  Tesla voertuigen. En we zijn nog maar net begonnen.
+                  Den Haag, Leiden en omgeving, met een volledig betrouwbare service van premium
+                  premium voertuigen. En we zijn nog maar net begonnen.
                 </p>
               </div>
             </div>

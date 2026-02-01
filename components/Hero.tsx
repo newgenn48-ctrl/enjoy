@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/enjoy taxi.webp"
-          alt="Enjoy Taxi - Premium Elektrische Tesla Taxi"
+          alt="Enjoy Taxi - Taxi Den Haag 24/7 Beschikbaar"
           fill
           className="object-cover"
           priority
@@ -29,7 +29,7 @@ export default function Hero() {
             <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
               <span className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
               <span className="text-sm font-medium text-white/90">
-                100% Elektrisch met Tesla
+                Vaste Prijzen · 24/7 Service
               </span>
             </div>
 
@@ -43,8 +43,8 @@ export default function Hero() {
 
             {/* Subheadline */}
             <p className="text-lg md:text-xl text-white/80 mb-8 max-w-lg leading-relaxed">
-              Reis in stijl met onze volledig elektrische Tesla vloot.
-              Duurzaam, luxe en comfortabel vervoer voor de moderne reiziger.
+              Betrouwbare taxi met vaste prijzen. Altijd op tijd,
+              professionele chauffeurs en comfortabel vervoer.
             </p>
 
             {/* CTA Buttons */}
@@ -93,7 +93,7 @@ export default function Hero() {
                 <svg className="w-4 h-4 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                <span className="text-sm font-medium text-white">100% Tesla</span>
+                <span className="text-sm font-medium text-white">Vaste Prijzen</span>
               </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20">
                 <svg className="w-4 h-4 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -113,7 +113,7 @@ export default function Hero() {
           {/* Right Column - Stats Card */}
           <div className="hidden lg:block">
             <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
-              {/* Tesla Icon */}
+              {/* Electric Icon */}
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 bg-white/10 rounded-xl flex items-center justify-center">
                   <svg
@@ -138,8 +138,8 @@ export default function Hero() {
               {/* Stats Grid */}
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div className="bg-white/10 rounded-xl p-4 text-center">
-                  <div className="text-2xl font-bold text-white mb-1">100%</div>
-                  <div className="text-xs text-white/70">Elektrisch</div>
+                  <div className="text-2xl font-bold text-white mb-1">5.0</div>
+                  <div className="text-xs text-white/70">Rating</div>
                 </div>
                 <div className="bg-white/10 rounded-xl p-4 text-center">
                   <div className="text-2xl font-bold text-white mb-1">24/7</div>
@@ -213,7 +213,7 @@ export default function Hero() {
             </defs>
           </svg>
 
-          {/* 3D Animated Tesla Car */}
+          {/* 3D Animated Car */}
           <div className="absolute bottom-[35px] md:bottom-[55px] animate-drive" style={{ perspective: '500px' }}>
             <div className="relative" style={{ transformStyle: 'preserve-3d' }}>
               {/* Car shadow on road */}
@@ -221,7 +221,7 @@ export default function Hero() {
                 className="absolute -bottom-2 left-1/2 w-12 md:w-20 h-2 md:h-4 bg-black/30 rounded-full blur-sm animate-car-shadow"
               />
 
-              {/* 3D Tesla Model */}
+              {/* 3D Car Model */}
               <svg
                 width="80"
                 height="40"
@@ -329,7 +329,7 @@ export default function Hero() {
                 <rect x="8" y="25" width="3" height="4" rx="1" fill="#FF3333" />
                 <rect x="8" y="25" width="5" height="4" rx="1" fill="#FF3333" opacity="0.3" />
 
-                {/* Tesla logo area - front */}
+                {/* Logo area - front */}
                 <circle cx="68" cy="22" r="2" fill="#79ba3a" stroke="#91ce4d" strokeWidth="0.5" />
 
                 {/* Chrome trim */}

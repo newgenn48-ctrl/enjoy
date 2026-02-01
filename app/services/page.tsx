@@ -6,20 +6,20 @@ import CTASection from '@/components/CTASection'
 export const metadata: Metadata = {
   title: 'Taxi Diensten Den Haag & Leiden | Luchthaven Transfer, Zakelijk, VIP | Enjoy Taxi',
   description:
-    'Premium elektrische taxi diensten in Den Haag en Leiden. Luchthaven transfers naar Schiphol, zakelijk vervoer, evenementen en VIP service. 100% Tesla vloot, 24/7 beschikbaar.',
+    'Premium taxi diensten met vaste prijzen in Den Haag en Leiden. Luchthaven transfers naar Schiphol, zakelijk vervoer, evenementen en VIP service. 100% betrouwbare service, 24/7 beschikbaar.',
   keywords: [
     'taxi diensten den haag',
     'luchthaven transfer schiphol',
     'zakelijk vervoer leiden',
     'vip taxi service',
-    'tesla taxi',
-    'elektrische taxi',
+    'taxi vaste prijs',
+    'taxi vaste prijs',
     'evenementen vervoer',
   ],
   openGraph: {
     title: 'Premium Taxi Diensten | Enjoy Taxi Den Haag & Leiden',
     description:
-      'Ontdek onze premium elektrische taxi diensten. Van Schiphol transfers tot VIP service met onze Tesla vloot.',
+      'Ontdek onze premium taxi diensten met vaste prijzen. Van Schiphol transfers tot VIP service - altijd betrouwbaar.',
     url: 'https://enjoytaxi.nl/services',
     type: 'website',
   },
@@ -55,7 +55,7 @@ const services = [
     title: 'Zakelijk Vervoer',
     subtitle: 'Professioneel & discreet',
     description:
-      'Maak indruk op uw zakenpartners met onze premium Tesla service. Discrete service, WiFi aan boord en opladers voor al uw devices.',
+      'Maak indruk op uw zakenpartners met onze premium service. Discrete service, WiFi aan boord en opladers voor al uw devices.',
     features: [
       'Professionele, discrete chauffeurs',
       'WiFi en USB-C/Lightning opladers',
@@ -76,9 +76,9 @@ const services = [
     title: 'Evenementen Vervoer',
     subtitle: 'Maak het onvergetelijk',
     description:
-      'Van bruiloften tot congressen, van galadiner tot sportevenement. Meerdere Tesla voertuigen beschikbaar voor groepsvervoer in stijl.',
+      'Van bruiloften tot congressen, van galadiner tot sportevenement. Meerdere premium voertuigen beschikbaar voor groepsvervoer in stijl.',
     features: [
-      'Meerdere Tesla voertuigen beschikbaar',
+      'Meerdere premium voertuigen beschikbaar',
       'Professionele coördinatie groepsvervoer',
       'Speciale decoratie op aanvraag (bruiloft)',
       'Flexibele planning en routes',
@@ -99,7 +99,7 @@ const services = [
     description:
       'Exclusieve service voor de meest veeleisende reizigers. Maximale privacy, persoonlijke aandacht en onze beste voertuigen.',
     features: [
-      'Tesla Model S of Model X',
+      'Premium voertuig',
       'Persoonlijke vaste chauffeur',
       'Maximale privacy & discretie',
       'Complimentary versnaperingen',
@@ -155,7 +155,7 @@ const faqs = [
   {
     question: 'Hoeveel bagage kan ik meenemen?',
     answer:
-      'In onze Tesla voertuigen passen 2-3 grote koffers en handbagage. Neem bij twijfel contact met ons op.',
+      'In onze premium voertuigen passen 2-3 grote koffers en handbagage. Neem bij twijfel contact met ons op.',
   },
   {
     question: 'Zijn er kinderzitjes beschikbaar?',
@@ -247,7 +247,7 @@ export default function ServicesPage() {
 
             <span className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 mb-6">
               <span className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
-              <span className="text-sm text-white/90">Premium Tesla Vloot</span>
+              <span className="text-sm text-white/90">Premium Comfort</span>
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6">
               Onze Taxi Diensten
@@ -264,7 +264,7 @@ export default function ServicesPage() {
                 <svg className="w-5 h-5 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
-                <span className="text-sm font-medium">100% Tesla</span>
+                <span className="text-sm font-medium">Vaste Prijzen</span>
               </div>
               <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm">
                 <svg className="w-5 h-5 text-primary-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -488,10 +488,10 @@ export default function ServicesPage() {
                 Waarom Enjoy Taxi
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-secondary-900 mb-6">
-                100% Tesla, 100% Elektrisch
+                Vaste Prijzen, Vaste Prijzen
               </h2>
               <p className="text-lg text-secondary-600 mb-8">
-                Onze volledige vloot bestaat uit premium Tesla voertuigen. Zero emissie, maximaal comfort en de nieuwste technologie.
+                Onze volledige vloot bestaat uit premium premium voertuigen. Maximaal comfort, altijd op tijd en de nieuwste technologie.
               </p>
 
               <div className="grid grid-cols-2 gap-6">
@@ -502,7 +502,7 @@ export default function ServicesPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-secondary-900">100% Elektrisch</h4>
+                    <h4 className="font-semibold text-secondary-900">Vaste Prijzen</h4>
                     <p className="text-sm text-secondary-500">Zero emissie rijden</p>
                   </div>
                 </div>
@@ -556,7 +556,7 @@ export default function ServicesPage() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="bg-white/10 rounded-xl p-4 text-center">
                     <div className="text-3xl font-bold mb-1">100%</div>
-                    <div className="text-sm text-white/70">Elektrisch</div>
+                    <div className="text-sm text-white/70">Betrouwbaar</div>
                   </div>
                   <div className="bg-white/10 rounded-xl p-4 text-center">
                     <div className="text-3xl font-bold mb-1">1000+</div>
@@ -622,7 +622,7 @@ export default function ServicesPage() {
 
       {/* CTA Section */}
       <CTASection
-        title="Klaar voor Premium Elektrisch Vervoer?"
+        title="Klaar voor Premium Betrouwbaar Vervoer?"
         subtitle="Neem contact op voor een vrijblijvende offerte of boek direct uw rit in Den Haag of Leiden."
       />
     </>

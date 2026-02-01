@@ -27,7 +27,7 @@ export default function PageHero({
       <div className="absolute inset-0">
         <Image
           src="/enjoy taxi.webp"
-          alt="Enjoy Taxi - Premium Elektrische Tesla Taxi"
+          alt="Enjoy Taxi - Taxi Den Haag met Vaste Prijzen"
           fill
           className="object-cover"
           priority

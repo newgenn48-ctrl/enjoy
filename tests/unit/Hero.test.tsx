@@ -35,8 +35,8 @@ describe('Hero Component', () => {
   it('renders trust indicators', () => {
     render(<Hero />)
 
-    expect(screen.getByText('100%')).toBeInTheDocument()
-    expect(screen.getByText('Elektrisch')).toBeInTheDocument()
+    expect(screen.getAllByText('5.0').length).toBeGreaterThan(0)
+    expect(screen.getAllByText('Rating').length).toBeGreaterThan(0)
     expect(screen.getByText('24/7')).toBeInTheDocument()
     expect(screen.getByText('Beschikbaar')).toBeInTheDocument()
   })
@@ -44,8 +44,8 @@ describe('Hero Component', () => {
   it('renders USP pills', () => {
     render(<Hero />)
 
-    expect(screen.getByText(/100% Elektrisch met Tesla/)).toBeInTheDocument()
-    expect(screen.getByText('100% Tesla')).toBeInTheDocument()
+    expect(screen.getByText(/Vaste Prijzen · 24\/7 Service/)).toBeInTheDocument()
+    expect(screen.getByText('Vaste Prijzen')).toBeInTheDocument()
     expect(screen.getByText('24/7 Service')).toBeInTheDocument()
     expect(screen.getByText('Vaste Tarieven')).toBeInTheDocument()
   })

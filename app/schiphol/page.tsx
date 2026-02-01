@@ -7,7 +7,7 @@ import FloatingCTA from '@/components/FloatingCTA'
 export const metadata: Metadata = {
   title: 'Taxi naar Schiphol Den Haag | Vaste Prijs €79 | Enjoy Taxi',
   description:
-    'Taxi naar Schiphol vanaf Den Haag voor €79. ✓ Vaste prijs ✓ Flight tracking ✓ 24/7 beschikbaar ✓ 100% Tesla comfort. Boek nu uw Schiphol taxi!',
+    'Taxi naar Schiphol vanaf Den Haag voor €79. ✓ Vaste prijs ✓ Flight tracking ✓ 24/7 beschikbaar ✓ 100% premium comfort. Boek nu uw Schiphol taxi!',
   keywords: [
     'taxi schiphol',
     'schiphol taxi',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Taxi naar Schiphol Den Haag | Vaste Prijs €79 | Enjoy Taxi',
     description:
-      'Premium taxi naar Schiphol Airport vanaf Den Haag voor €79. Flight tracking, 24/7 beschikbaar. 100% Tesla comfort voor uw luchthaven transfer.',
+      'Premium taxi naar Schiphol Airport vanaf Den Haag voor €79. Flight tracking, 24/7 beschikbaar. 100% premium comfort voor uw luchthaven transfer.',
     url: 'https://enjoytaxi.nl/schiphol',
     images: [
       {
@@ -111,8 +111,8 @@ const features = [
     ),
   },
   {
-    title: 'Tesla Comfort',
-    description: 'Reis in stijl met onze luxe Tesla vloot naar Schiphol.',
+    title: 'Premium Comfort',
+    description: 'Reis in stijl met onze luxe voertuigen naar Schiphol.',
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -162,7 +162,7 @@ const processSteps = [
   {
     step: '4',
     title: 'Comfortabel Reizen',
-    description: 'Uw chauffeur staat klaar. Geniet van de Tesla rit naar of van Schiphol.',
+    description: 'Uw chauffeur staat klaar. Geniet van de premium rit naar of van Schiphol.',
   },
 ]
 
@@ -288,7 +288,7 @@ export default function SchipholPage() {
 
               {/* Subheadline */}
               <p className="text-lg md:text-xl text-white/80 mb-8 max-w-lg leading-relaxed">
-                Stressvrij naar Schiphol Airport met onze premium Tesla taxi service.
+                Stressvrij naar Schiphol Airport met onze premium taxi service.
                 Vaste prijzen, flight tracking en 30 minuten gratis wachttijd.
               </p>
 
@@ -384,7 +384,7 @@ export default function SchipholPage() {
                 <div className="grid grid-cols-2 gap-4 mb-6">
                   <div className="bg-white/10 rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-white mb-1">100%</div>
-                    <div className="text-xs text-white/70">Elektrisch</div>
+                    <div className="text-xs text-white/70">Betrouwbaar</div>
                   </div>
                   <div className="bg-white/10 rounded-xl p-4 text-center">
                     <div className="text-2xl font-bold text-white mb-1">24/7</div>
@@ -699,7 +699,7 @@ export default function SchipholPage() {
                 Uw Betrouwbare Schiphol Taxi
               </h2>
               <p className="text-lead mb-10">
-                Al jaren de betrouwbare keuze voor luchthaven transfers. Tesla comfort, vaste prijzen en altijd op tijd.
+                Al jaren de betrouwbare keuze voor luchthaven transfers. premium comfort, vaste prijzen en altijd op tijd.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

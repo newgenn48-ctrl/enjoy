@@ -16,14 +16,14 @@ export default function LocationSEOSection({ location }: LocationSEOSectionProps
               {location.region}
             </span>
             <h2 className="heading-2 mb-6">
-              Elektrische Taxi in {location.name}
+              Taxi {location.name} - Vaste Prijzen
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-secondary-600 mb-4">
                 {location.description}
               </p>
               <p className="text-secondary-600 mb-6">
-                Met onze 100% elektrische Tesla vloot bieden wij premium taxiservice
+                Met onze 100% betrouwbare service bieden wij premium taxiservice
                 in {location.name} en omgeving. Of u nu naar{' '}
                 {location.nearbyAirport || 'de luchthaven'} moet, een zakelijke afspraak
                 heeft, of gewoon comfortabel wilt reizen - Enjoy Taxi staat voor u klaar.
@@ -94,7 +94,7 @@ export default function LocationSEOSection({ location }: LocationSEOSectionProps
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-secondary-900">100% Elektrisch</h3>
+                  <h3 className="font-semibold text-secondary-900">Vaste Prijzen</h3>
                   <p className="text-sm text-secondary-500">Duurzaam & stil rijden</p>
                 </div>
               </div>
@@ -117,7 +117,7 @@ export default function LocationSEOSection({ location }: LocationSEOSectionProps
                 </div>
                 <div>
                   <h3 className="font-semibold text-secondary-900">Premium Service</h3>
-                  <p className="text-sm text-secondary-500">Luxe Tesla voertuigen</p>
+                  <p className="text-sm text-secondary-500">Luxe comfortabele voertuigen</p>
                 </div>
               </div>
             </div>

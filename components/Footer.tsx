@@ -42,7 +42,7 @@ export default function Footer() {
               />
             </Link>
             <p className="text-secondary-300 mb-6 max-w-md">
-              Premium elektrische taxi service met 100% Tesla vloot.
+              Premium taxi service met vaste prijzen. Betrouwbaar en comfortabel vervoer.
               Duurzaam, luxe en comfortabel reizen voor de moderne reiziger.
             </p>
             {/* Contact Info */}

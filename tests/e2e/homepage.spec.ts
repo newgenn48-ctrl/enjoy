@@ -6,7 +6,7 @@ test.describe('Homepage', () => {
   })
 
   test('should display the hero section with correct headline', async ({ page }) => {
-    await expect(page.getByText('Premium Elektrisch')).toBeVisible()
+    await expect(page.getByText('Den Haag')).toBeVisible()
     await expect(page.getByText('Taxi Service')).toBeVisible()
   })
 
@@ -61,7 +61,7 @@ test.describe('Homepage', () => {
 
     // Check meta description
     const metaDescription = await page.getAttribute('meta[name="description"]', 'content')
-    expect(metaDescription).toContain('elektrische taxi')
+    expect(metaDescription).toContain('vaste prijzen')
   })
 
   test('should be responsive on mobile', async ({ page }) => {

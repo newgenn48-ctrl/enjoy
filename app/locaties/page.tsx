@@ -82,7 +82,7 @@ export default function LocatiesPage() {
               Taxi Service in <span className="text-primary-300">Zuid-Holland</span>
             </h1>
             <p className="text-xl text-white/70 mb-8">
-              Premium Tesla taxi service in Den Haag, Leiden, Delft en omgeving.
+              Premium taxi service in Den Haag, Leiden, Delft en omgeving.
               24/7 beschikbaar met vaste prijzen.
             </p>
             <div className="flex flex-wrap justify-center lg:justify-start gap-4">
@@ -291,7 +291,7 @@ export default function LocatiesPage() {
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">100%</div>
-              <div className="text-white/70">Tesla</div>
+              <div className="text-white/70">Betrouwbaar</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">Vast</div>
